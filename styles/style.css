@@ -1,0 +1,119 @@
+*{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+ 
+}
+.para, .box1-para, .box2-para, .box3-para{
+    font-size:13px;
+    opacity:0.6;
+}
+#head-id{
+    align-items:center;
+    justify-content:space-between;
+    display:flex;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom:10px;
+}
+/* banner design */
+#banner{
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    width:1150px;
+    height: 500px;
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    padding:7px 50px 7px 50px;
+}
+#banner .banner-head{
+    color: rgb(13, 19, 33);
+    
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+#banner .banner-content{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    align-items: center;
+    padding: 0px;
+}
+.banner-head, .banner-content{
+    
+}
+.btn{
+    color:white;
+    background-color:black;
+    padding:7px;
+    border-radius: 4px;
+}
+/*  */
+#parent{
+    
+position:absolute;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+margin:80px 85px 80px 85px;
+padding:40px;
+background: rgba(13, 19, 33, 0.02);
+
+}
+.section-head{
+    color: rgb(13, 19, 33);
+font-size: 19px;
+font-weight: 600;
+letter-spacing: 0%;
+text-align: center;
+}
+.box-1{
+    display:flex;
+    margin:20px;
+    padding:5px;
+    border-radius: 10px;
+    background-color: white;;
+    
+}
+.box1-head, .box1-para{
+    width:80%;
+}
+.box-2{
+    display:flex;
+    margin:20px;
+    padding:5px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.box2-img{
+    
+}
+.box2-head, .box2-para{
+    display:inline;
+    width:80%;
+    text-align:left;
+}
+.box-3{
+    display:flex;
+    margin:20px;
+    padding:5px;
+    border-radius: 10px;
+    background-color:white;
+    
+    
+}
+.box3-head, .box3-para{
+    
+    width:80%;
+}
+ 
