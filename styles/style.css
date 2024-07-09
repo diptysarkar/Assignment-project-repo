@@ -47,9 +47,7 @@
     align-items: center;
     padding: 0px;
 }
-.banner-head, .banner-content{
-    
-}
+
 .btn{
     color:white;
     background-color:black;
@@ -59,7 +57,7 @@
 /*  */
 #parent{
     
-position:absolute;
+
 display: flex;
 flex-direction:column;
 justify-content: center;
@@ -95,9 +93,7 @@ text-align: center;
     border-radius: 10px;
     
 }
-.box2-img{
-    
-}
+
 .box2-head, .box2-para{
     display:inline;
     width:80%;
@@ -109,11 +105,26 @@ text-align: center;
     padding:5px;
     border-radius: 10px;
     background-color:white;
-    
-    
 }
 .box3-head, .box3-para{
-    
     width:80%;
+}
+.video-head{
+        text-align:center;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 200px;
+        margin-right: 200px;
+}
+.video-head p{
+    font-size:13px;
+    opacity:0.6;
+}
+.video-file{
+    align-items:center;
+    justify-content:center;
+   margin:50px 50px;
+   border-radius: 20px;  
 }
  
